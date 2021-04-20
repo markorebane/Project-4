@@ -21,6 +21,7 @@
   
   .default {
     background-color: $color-default;
+    transition: background-color, 0.5s ease; 
     &:hover {
       background-color: lighten($color-default, 15%);
     }
@@ -28,6 +29,7 @@
   
   .error {
     background-color: $color-error;
+    transition: background-color, 0.5s ease; 
     &:hover {
       background-color: lighten($color-error, 15%);
     }
@@ -35,6 +37,7 @@
   
   .info {
     background-color: $color-info;
+    transition: background-color, 0.5s ease; 
     &:hover {
       background-color: lighten($color-info, 15%);
     }
@@ -42,6 +45,7 @@
   
   .success {
     background-color: $color-success;
+    transition: background-color, 0.5s ease; 
     &:hover {
       background-color: lighten($color-success, 15%);
     }
@@ -49,6 +53,7 @@
   
   .warning {
     background-color: $color-warning;
+    transition: background-color, 0.5s ease; 
     &:hover {
       background-color: lighten($color-warning, 15%);
     }
